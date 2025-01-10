@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 600;
+  src: url('../fonts/static/SemiBold.ttf');
+}
+@font-face {
+  font-family: 'Inter';
+  font-weight: 700;
+  src: url('../fonts/static/Bold.ttf');
+}
+@font-face {
+  font-family: 'Inter';
+  font-weight: 800;
+  src: url('../fonts/static/ExtraBold.ttf');
+}
+.bg-blur {
+  background-color: rgba(255, 255, 255, 0.2); /* 50% shaffof qora rang */
+}
